@@ -1,0 +1,152 @@
+body {
+background-image: url("image/Me.jpg");
+background-size: cover;
+color:#000000;
+font-family: Caibri, cursive;
+}
+h1 {
+   color: #000000;
+   font-family: Times New Roman, cursive;
+   font-size: 40px;
+   line-height: 3;
+   font-weight: lighter;
+}
+ 
+h2 {
+padding: 20px;
+font-family: calibri, cursive;
+color: #000000;
+}
+ 
+h3 { font-family: Calibri, cursive;
+color: #000000;
+font-size: 30px;
+padding-bottom: 0px;
+}
+ 
+a { text-decoration: none;
+color: black; }
+ 
+ 
+div {
+padding: 100px;
+margin: 100px;
+align-content: center;
+ 
+}
+ 
+.card-white {
+box-shadow:1px 1px 3px blue;
+background-color: #ccffff;
+padding: 10px;
+border-radius: 10px;
+box-shadow:0 10px 30px #ffccff;
+margin:20px, auto;
+text-align: center;
+margin-bottom: 15px;
+margin-top: 15px;
+align-content: center;
+
+}
+
+ 
+ 
+#banner { background-color: lightblue}
+ 
+#container {
+padding: 10px;
+border-radius: 4px;
+margin:20px, auto;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 10px;
+box-shadow: 0px 10px 10px rgba(0,0,0,0.1)
+border: solid gold;
+overflow: auto;
+align-content: center;
+}
+
+
+.img-circle {
+width: : 100px;
+height: 200px;
+border-radius: 50%;
+}
+ 
+.img-circle:hover {
+border-radius: 50%;
+}
+
+ 
+.btn-gold {
+background-color: #FFD700;
+color: Black;
+padding: 15px 20px;
+border-radius: 4px;
+margin: 15px;
+}
+ 
+.btn-gold:hover {
+background-color: gray;
+}
+ 
+a:hover {
+color:black;
+}
+ 
+#text-bottomspace {
+padding-bottom: 30px;
+}
+ 
+.list-inline {
+list-style: none;
+padding-left: 0px;
+ 
+}
+ 
+.list-inline li {
+display: inline;
+padding: 20px;
+text-align: center;
+}
+ 
+.list-inline img {
+display: inline;
+padding: 30px;
+text-align: center;
+}
+ 
+.list-inline i {
+font-size: 50px;
+color: rgb(180,180,180);
+}
+ 
+.list-inline i:hover {
+color: gold;
+}
+ 
+.test {
+background-image: url(images/blehehe.png);
+padding-left: 50px;
+margin: 10px;
+}
+
+ 
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%; }
+ 
+ 
+@media (max-width: 500px) {
+.container { width: 400px
+}
+}
+@media (max-width: 760px) {
+.container { width: 600px}
+}
+ 
+.card-white:hover {
+background-color: #faf3fb;
+}
